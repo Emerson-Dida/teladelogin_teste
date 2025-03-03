@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Validador de Senha</title>
+</head>
+<body>
+    <header>
+        <h1>Teste de Login</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Login</h2>
+            <p id="mensagem"></p>
+            <p id="alerta"></p>
+            <form>
+                <label for="usuario">Digite seu Usuário:</label>
+                <input type="text" name="usuario" required placeholder="Ex: joaocarlos" id="user">                 
+                <div>
+                    <label for="password" class="senha">Digite sua senha:</label> 
+                    <input class="password" type="password" name="password"  required id="password" placeholder="EX: ABcd1435@">   
+                    <span class="material-icons" id="visibility" aria-describedby="Mostrar senha">visibility</span>
+                </div>    
+                <button id="acessar">Entrar</button>
+            </form>        
+            
+
+            <a href="#">Esqueceu sua senha?</a>
+            <a href="#">Faça seu cadastrado</a>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
